@@ -61,7 +61,7 @@ function addCarIcon(coordinates) {
         anchorXUnits: 'fraction',
         anchorYUnits: 'fraction',
         opacity: 0.75,
-        src: '/static/car-icon.png', // Path to your car icon image
+        src: 'car-icon.png', // Path to your car icon image
         scale: 0.2, // Adjust the scale as needed (increased size)
       }),
     })
@@ -110,7 +110,7 @@ function addAlertSymbol(coordinates) {
         anchorXUnits: 'fraction',
         anchorYUnits: 'fraction',
         opacity: 0.75,
-        src: '/static/custom-alert-symbol.jpg', // Path to your custom alert symbol image
+        src: 'custom-alert-symbol.jpg', // Path to your custom alert symbol image
         scale: 0.1, // Adjust the scale as needed
       }),
     })
